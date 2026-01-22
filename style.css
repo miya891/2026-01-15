@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#box1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#box2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#box3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+nav ul {      
+    display: flex;
+    gap: 30px;
+    background-color: aquamarine;
+    justify-content: center;
+    
+}
+
+nav ul a {
+    display: block;
+    padding: 50px 50px;
+    margin: 0 2em;
+    text-decoration: none;  
+}
+
+nav ul a:hover {
+    color: red;
+    background-color: azure;
+    transition: all 0.5s ease-in,  0.5s ease-out ;
+}
+
